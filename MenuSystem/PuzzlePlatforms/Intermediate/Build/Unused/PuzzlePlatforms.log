@@ -1,14 +1,24 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿  Creating makefile for hot reloading PuzzlePlatformsEditor (no existing makefile)
+  Compiling game modules for hot reload
   Parsing headers for PuzzlePlatformsEditor
-    Running UnrealHeaderTool "E:\Unreal_Engine\PuzzlePlatforms\PuzzlePlatforms.uproject" "E:\Unreal_Engine\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PuzzlePlatformsEditor in 12.0402572 seconds
-  Performing 5 actions (4 in parallel)
-  PuzzlePlatformsGameInstance.gen.cpp
-  PuzzlePlatforms.init.gen.cpp
+    Running UnrealHeaderTool "E:\gitmaybe\UnrealProjects\MenuSystem\PuzzlePlatforms\PuzzlePlatforms.uproject" "E:\gitmaybe\UnrealProjects\MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\PuzzlePlatformsEditor\Development\PuzzlePlatformsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PuzzlePlatformsEditor in 11.3760327 seconds
+  Performing 14 actions (4 in parallel)
+  MovingPlatform.gen.cpp
+  PlatformTrigger.cpp
+  PuzzlePlatforms.cpp
+  MovingPlatform.cpp
+  PuzzlePlatformsCharacter.cpp
   PuzzlePlatformsGameInstance.cpp
-  [4/5] Link UE4Editor-PuzzlePlatforms.dll
-  [5/5] Link UE4Editor-PuzzlePlatforms.lib
-     Creating library E:\Unreal_Engine\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.lib and object E:\Unreal_Engine\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.exp
-     Creating library E:\Unreal_Engine\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.suppressed.lib and object E:\Unreal_Engine\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms.suppressed.exp
+  PuzzlePlatformsGameMode.cpp
+  PlatformTrigger.gen.cpp
+  PuzzlePlatforms.init.gen.cpp
+  PuzzlePlatformsCharacter.gen.cpp
+  PuzzlePlatformsGameInstance.gen.cpp
+  PuzzlePlatformsGameMode.gen.cpp
+  [13/14] Link UE4Editor-PuzzlePlatforms-8759.dll
+  [14/14] Link UE4Editor-PuzzlePlatforms-8759.lib
+     Creating library E:\gitmaybe\UnrealProjects\MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-8759.lib and object E:\gitmaybe\UnrealProjects\MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-8759.exp
+     Creating library E:\gitmaybe\UnrealProjects\MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-8759.suppressed.lib and object E:\gitmaybe\UnrealProjects\MenuSystem\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PuzzlePlatforms-8759.suppressed.exp
   Deploying PuzzlePlatformsEditor Win64 Development...
-  Total build time: 15.32 seconds (Local executor: 1.63 seconds)
+  Total build time: 29.66 seconds (Local executor: 3.54 seconds)

@@ -3,7 +3,9 @@
 #include "PuzzlePlatformsGameInstance.h"
 
 #include "Engine/Engine.h"
+#include "UObject/ConstructorHelpers.h"
 
+#include "PlatformTrigger.h"
 
 UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance(const FObjectInitializer & ObjectInitializer)
 {
@@ -12,7 +14,10 @@ UPuzzlePlatformsGameInstance::UPuzzlePlatformsGameInstance(const FObjectInitiali
 
 void UPuzzlePlatformsGameInstance::Init()
 {
-	UE_LOG(LogTemp, Warning, TEXT("GameInstance Init"));
+	ConstructorHelpers::FClassFinder<APlatformTrigger> PlatformTriggerBPClass(TEXT("/Game/PuzzlePlatforms/MyPlatformTrigger"));
+	if (!ensure(PlatformTriggerBPClass.Class != nullptr)) return;
+
+	UE_LOG(LogTemp, Warning, TEXT("Found class %s"), *PlatformTriggerBPClass.Class->GetName());
 }
 
 
