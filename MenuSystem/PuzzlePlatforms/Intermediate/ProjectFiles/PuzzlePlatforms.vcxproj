@@ -124,7 +124,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{21E74FDE-DD07-495E-AB3F-31846DD44761}</ProjectGuid>
+		<ProjectGuid>{1A4E0AF0-A87B-4890-8ECB-5A2C559A4B7D}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>PuzzlePlatforms</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -568,8 +568,6 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
-		<ClCompile Include="..\..\Source\PuzzlePlatforms\MainMenu.cpp" />
-		<ClInclude Include="..\..\Source\PuzzlePlatforms\MainMenu.h" />
 		<ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp" />
 		<ClInclude Include="..\..\Source\PuzzlePlatforms\MovingPlatform.h" />
 		<ClCompile Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.cpp" />
